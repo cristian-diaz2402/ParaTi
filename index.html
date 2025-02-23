@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para mi niña bonita :3 ❤️</title>
+    <!-- Asegúrate de que todas las librerías estén cargadas correctamente -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Agregamos la librería de particles.js -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Contenedor para particles.js -->
+    <div id="particles-js"></div>
+
+    <!-- Contenedor principal -->
+    <div class="container">
+        <!-- Botón inicial -->
+        <button id="start-btn" class="start-button">
+            Toca aquí para ver tu sorpresa ❤️
+        </button>
+
+        <!-- Contenido principal (inicialmente oculto) -->
+        <div id="main-content" class="main-content hidden">
+            <h1 class="title animate__animated animate__heartBeat animate__infinite">
+                ❤️ Lo más bonito para la más bonita 
+            </h1>
+
+            <div class="message">
+                <p>
+                    Hay algo en ti que destaca, como una melodía que aún no escucho pero sé que me va a encantar. No sé exactamente qué es, tal vez la forma en que iluminas cada palabra que escribes o esa energía que se siente incluso a la distancia. Solo sé que hay algo especial en ti, y eso ya es suficiente para querer descubrir más de ti.
+                </p>
+            </div>
+
+            <!-- Reproductor de música -->
+            <div class="music-player">
+                <h3>Escuchala :3 </h3>
+                <audio id="love-song" controls>
+                    <!-- Reemplaza este enlace con tu archivo de música -->
+                    <source src="Willian - Sol (Video Lyrics) [PW6ZSzdjrlo].mp3" type="audio/mp3">
+                </audio>
+            </div>
+
+            <div class="footer-message">
+                Pa la niña más lindota de todas :3 💑
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
